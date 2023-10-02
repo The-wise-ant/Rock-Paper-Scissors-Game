@@ -1,0 +1,51 @@
+body {
+
+  background-image: linear-gradient(yellow, orange);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+#score {
+
+  display: flex;
+  align-items: center;
+}
+
+#score>div {
+  margin-right: 70px;
+}
+
+
+
+#picks {
+
+  display: flex;
+  align-items: center;
+}
+
+#picks>div {
+  margin-right: 70px;
+}
+
+.option {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  margin: 30px;
+}
+
+
+.option:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+
+#cpuImage {
+  height: 80px;
+  width: 80px;
+  margin: 30px;
+}
